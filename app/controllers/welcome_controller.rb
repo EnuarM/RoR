@@ -1,5 +1,6 @@
 class WelcomeController < ApplicationController
   def hello
-    render plain: "¡Hola, mundo!"
+    @variableName = Pet.first.name
+    @variableBreed = Pet.first.breed
   end
 end
