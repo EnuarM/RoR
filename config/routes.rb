@@ -1,7 +1,5 @@
 Rails.application.routes.draw do
-
   get "up" => "rails/health#show", as: :rails_health_check
 
-  get "hola" => 'welcome#hello'
-
+  get "hola" => "welcome#hello"
 end
