@@ -1,0 +1,14 @@
+---
+es:
+  hello: Hola mundo
+  users:
+    form:
+      about_me: Sobre mí
+      address: Dirección
+      first_name: Nombre
+      last_name: Apellido
+      phone: Teléfono
+      save_button: Guardar
+    new:
+      back: Volver
+      title: Nuevo Usuario
